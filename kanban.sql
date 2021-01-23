@@ -135,6 +135,7 @@ create table user
    prof_PIC             longblob,
    email                varchar(128) not null,
    username                varchar(128) not null,
+   password                 varchar(128) not null,
    created_date         date,
    last_modified_date   timestamp,
    last_modified_by     varchar(43),
